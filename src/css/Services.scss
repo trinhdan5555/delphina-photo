@@ -1,0 +1,48 @@
+.services-body {
+  width: 80%;
+  height: 550px;
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row:after {
+  //content: "";
+  display: block;
+  //clear: both;
+}
+
+.image {
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 500px;
+}
+
+.service-button {
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.price-description {
+  font-size: 2rem
+}
+
+/* Create two equal columns that floats next to each other */
+.column-left {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  //background-color: #21ba45;
+}
+
+/* Create two equal columns that floats next to each other */
+.column-right {
+  box-sizing: border-box;
+  float: right;
+  width: 50%;
+  //background-color: #2185d0;
+}
